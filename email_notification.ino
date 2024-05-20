@@ -4,12 +4,12 @@
 #include "ESP32_MailClient.h"
 
 // REPLACE WITH YOUR NETWORK CREDENTIALS
-const char* ssid = "ASUS-ROG-STRIX 0898";
-const char* password = "123456789";
+const char* ssid = "YOUR SSID";
+const char* password = "YOUR PASSWORD";
 
 // To send Emails using Gmail on port 465 (SSL), you need to create an app password: https://support.google.com/accounts/answer/185833
-#define emailSenderAccount    "rv514112@gmail.com"
-#define emailSenderPassword   "vlpapihajnvzdhxq"
+#define emailSenderAccount    "youremail@gmail.com"
+#define emailSenderPassword   "password"
 #define smtpServer            "smtp.gmail.com"
 #define smtpServerPort        465
 #define emailSubject          "[ALERT] ESP32 Temperature"
@@ -20,7 +20,7 @@ const char* password = "123456789";
 //#define Zero_Deg_ADC_Value 550
 
 // Default Recipient Email Address
-String inputMessage = "prateekverma1016@gmail.com";
+String inputMessage = "put your email id";
 String enableEmailChecked = "checked";
 String inputMessage2 = "true";
 // Default Threshold Temperature Value
