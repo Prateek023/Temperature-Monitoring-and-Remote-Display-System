@@ -16,8 +16,8 @@
 #define API_KEY "AIzaSyAWRKe57h-udVoLiQOFE6yy750e_Aa8V0A"
 
 // Insert Authorized Email and Corresponding Password
-#define USER_EMAIL "rvardhan9984@gmail.com"
-#define USER_PASSWORD "ecn351"
+#define USER_EMAIL "emailid@gmail.com"
+#define USER_PASSWORD "put your password"
 
 // Insert RTDB URLefine the RTDB URL
 #define DATABASE_URL "https://temp-monitor-2ec14-default-rtdb.asia-southeast1.firebasedatabase.app"
